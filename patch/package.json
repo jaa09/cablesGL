@@ -6,6 +6,6 @@
 	},
 	"dependencies": {
 	    "serve": "^13.0.2",
-		"electron-builder": "serve"
+		"electron-builder": "^14.0.0"
 	}
 }
