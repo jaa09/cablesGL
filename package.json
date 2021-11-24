@@ -13,7 +13,7 @@
 			"category": "public.app-category.lifestyle"
 		},
 		"dmg": {
-			"icon": false
+			"icon": "false"
 		},
 		"linux": {
 			"target": ["AppImage"],
