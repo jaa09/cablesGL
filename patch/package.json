@@ -1,7 +1,7 @@
 {
 	"name": "cablesGL",
 	"version": "1.0.0",
-	"scripts:": {
+	"scripts": {
 		"start": "serve",
 	},
 	"dependencies": {
