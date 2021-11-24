@@ -1,5 +1,5 @@
 {
-	"name": "your-app",
+	"name": "cablesGL",
 	"scripts:": {
 		"start": "serve -s patch"
 		"postinstall": "electron-builder install-app-deps",
@@ -20,12 +20,12 @@
 			"category": "Office"
 		}
 	},
-	  "dependencies": {
-	    "serve": "^13.0.2",
-	    "electron-builder": "^14.0.0"
-	  },
-	  "devDependencies": {
-	    "serve": "^13.0.2",
-	    "electron-builder": "^14.0.0"
-	  }
+	"dependencies": {
+		"serve": "^13.0.2",
+		"electron-builder": "^14.0.0"
+	},
+	"devDependencies": {
+		"serve": "^13.0.2",
+		"electron-builder": "^14.0.0"
+	}
 }
