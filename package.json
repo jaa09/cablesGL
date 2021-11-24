@@ -1,6 +1,7 @@
 {
 	"name": "your-app",
 	"scripts:": {
+		"start": "serve -s patch"
 		"postinstall": "electron-builder install-app-deps",
 		"build": "electron-builder --mac --windows --linux",
 		"release": "electron-builder --mac --windows --linux --publish always"
@@ -18,11 +19,13 @@
 			"target": ["AppImage"],
 			"category": "Office"
 		}
-	},,
+	},
 	  "dependencies": {
+	    "serve": "^13.0.2",
 	    "electron-builder": "^14.0.0"
-	  }
+	  },
 	  "devDependencies": {
+	    "serve": "^13.0.2",
 	    "electron-builder": "^14.0.0"
 	  }
 }
