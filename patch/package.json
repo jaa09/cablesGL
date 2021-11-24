@@ -2,10 +2,6 @@
 	"name": "cablesGL",
 	"version": "1.0.0",
 	"scripts": {
-		"start": "serve",
-	},
-	"dependencies": {
-	    "serve": "^13.0.2",
-		"electron-builder": "^14.0.0"
+		"start": "node ./js/patch.js",
 	}
 }
