@@ -18,7 +18,10 @@
 			"target": ["AppImage"],
 			"category": "Office"
 		}
-	},
+	},,
+	  "dependencies": {
+	    "electron-builder": "^14.0.0"
+	  }
 	  "devDependencies": {
 	    "electron-builder": "^14.0.0"
 	  }
