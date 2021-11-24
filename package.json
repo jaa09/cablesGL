@@ -1,0 +1,25 @@
+{
+	"name": "your-app",
+	"scripts:": {
+		"postinstall": "electron-builder install-app-deps",
+		"build": "electron-builder --mac --windows --linux",
+		"release": "electron-builder --mac --windows --linux --publish always"
+	}
+	"build": {
+		"appId": "com.jaa09.cablesGL",
+		"productName": "Cables GL",
+		"mac": {
+			"category": "public.app-category.lifestyle"
+		},
+		"dmg": {
+			"icon": false
+		},
+		"linux": {
+			"target": ["AppImage"],
+			"category": "Office"
+		}
+	}
+  "devDependencies": {
+    "electron-builder": "22.14.5"
+  }
+}
